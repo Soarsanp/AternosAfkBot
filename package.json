@@ -1,19 +1,17 @@
 {
   "name": "newbie",
   "version": "1.0.0",
-  "description": "",
+  "description": "Aternos AFK Bot",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
+  "keywords": ["minecraft", "afk", "bot", "mineflayer"],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "config": "^3.3.7",
-    "express": "^4.18.1",
-    "fs": "^0.0.1-security",
-    "mineflayer": "^4.3.0",
+    "express": "^4.18.2",
+    "mineflayer": "^4.10.1",
     "mineflayer-armor-manager": "^1.4.2",
     "mineflayer-cmd": "^1.1.3",
     "mineflayer-pathfinder": "^2.1.1",

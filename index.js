@@ -1,3 +1,4 @@
+require("./keepAlive");
 // index.js - Optimized Aternos AFK Bot
 
 const mineflayer = require('mineflayer');
@@ -485,3 +486,4 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
     console.log(`KeepAlive server running at http://localhost:${port}`);
 });
+
